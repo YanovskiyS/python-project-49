@@ -20,11 +20,12 @@ def get_data_for_round():
     STEP = randint(1, 10)
     LIST_WITH_PROGRESSION = create_random_progression(FIRST_ELEMENT, STEP)
     HIDDEN_index = randint(0, 9)
-    NUMBER_FOR_ANSWER = LIST_WITH_PROGRESSION.pop(HIDDEN_index)
+    NUMBER_FOR_ANSWER = LIST_WITH_PROGRESSION[HIDDEN_index]
     LIST_WITH_PROGRESSION[HIDDEN_index] = '...'
     ANSWER = str(NUMBER_FOR_ANSWER)
-    PROGRESSION = " ".join(str(x) for x in LIST_WITH_PROGRESSION)
+    PROGRESSION = ' '.join(str(el) for el in LIST_WITH_PROGRESSION)
     return [PROGRESSION, ANSWER]
 
 
 run_game(RULE, get_data_for_round)
+
