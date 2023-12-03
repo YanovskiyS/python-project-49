@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from brain_games.games import calculator
+from brain_games.games import brain_gcd
 
 
 def main():
-    calculator
+    brain_gcd
 
 
 if __name__ == '__main__':

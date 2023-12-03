@@ -8,3 +8,6 @@ Brain even asciinema:
 
  Brain calculator asciinema:
   https://asciinema.org/a/UPHB9JDCzf4IkKnqHPrL1iAeq
+
+Brain gcd asciinema:
+  https://asciinema.org/a/H6ezzQR4O16ZIEitH4HpFTQUy
