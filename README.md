@@ -11,3 +11,6 @@ Brain even asciinema:
 
 Brain gcd asciinema:
   https://asciinema.org/a/H6ezzQR4O16ZIEitH4HpFTQUy
+
+Brain progression:
+ https://asciinema.org/a/tqmh0ekUWbu8ksHlX1q65Mg5s
