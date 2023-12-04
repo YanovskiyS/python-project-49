@@ -18,7 +18,8 @@ def run_game(rules, get_round_data):
         if answer == right_answer:
             print('Correct')
         else:
-            print(f'\'{answer}\' is wrong answer ;(. Correct answer was {right_answer}\nLet\'s try again, {user_name}!')
+            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \
+            {right_answer}\nLet\'s try again, {user_name}!')
             return
         i = i + 1
 
