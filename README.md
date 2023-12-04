@@ -14,3 +14,6 @@ Brain gcd asciinema:
 
 Brain progression:
  https://asciinema.org/a/tqmh0ekUWbu8ksHlX1q65Mg5s
+
+brain prime
+ https://asciinema.org/a/f5hIbrCpTug5DS2LYFLARpBq6
