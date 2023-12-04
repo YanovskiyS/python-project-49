@@ -22,4 +22,4 @@ def run_game(rules, get_round_data):
             return
         i = i + 1
 
-    print(f'Congratulation, {user_name}!')
+    print(f'Congratulations, {user_name}!')
