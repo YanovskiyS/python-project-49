@@ -6,6 +6,8 @@ RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
+    if num == 1:
+        return False
     d = 2
     while d * d <= num and num % d != 0:
         d += 1
@@ -13,7 +15,7 @@ def is_prime(num):
 
 
 def get_data_for_round():
-    QUESTION = randint(1, 20)
+    QUESTION = randint(1, 2)
     RIGHT_ANSWER = 'yes' if is_prime(QUESTION) else "no"
     return [QUESTION, RIGHT_ANSWER]
 
