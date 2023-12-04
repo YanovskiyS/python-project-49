@@ -45,18 +45,15 @@ poetry build
 
 ## Asciinemas
 
-
-Brain even asciinema:
+### Is Even
 [![asciicast](https://asciinema.org/a/pv8MvLTgua7ZkblUwdYhD6mAf.svg)](https://asciinema.org/a/pv8MvLTgua7ZkblUwdYhD6mAf)
+### Calculator
+Brain calculator asciinema:
+[![asciicast](https://asciinema.org/a/UPHB9JDCzf4IkKnqHPrL1iAeq.svg)](https://asciinema.org/a/UPHB9JDCzf4IkKnqHPrL1iAeq)
 
- Brain calculator asciinema:
-  https://asciinema.org/a/UPHB9JDCzf4IkKnqHPrL1iAeq
-
-Brain gcd asciinema:
-  https://asciinema.org/a/H6ezzQR4O16ZIEitH4HpFTQUy
-
-Brain progression:
- https://asciinema.org/a/tqmh0ekUWbu8ksHlX1q65Mg5s
-
-brain prime
- https://asciinema.org/a/f5hIbrCpTug5DS2LYFLARpBq6
+### Greatest common divisor
+[![asciicast](https://asciinema.org/a/H6ezzQR4O16ZIEitH4HpFTQUy.svg)](https://asciinema.org/a/H6ezzQR4O16ZIEitH4HpFTQUy)
+### Progression
+[![asciicast](https://asciinema.org/a/tqmh0ekUWbu8ksHlX1q65Mg5s.svg)](https://asciinema.org/a/tqmh0ekUWbu8ksHlX1q65Mg5s)
+### Prime number
+[![asciicast](https://asciinema.org/a/f5hIbrCpTug5DS2LYFLARpBq6.svg)](https://asciinema.org/a/f5hIbrCpTug5DS2LYFLARpBq6)
