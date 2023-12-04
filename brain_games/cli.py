@@ -1,10 +1,7 @@
-
-from brain_games.engine import run_game
-
-
-def main():
-    run_game()
+import prompt
 
 
-if __name__ == '__main__':
-    main()
+def welcome_user():
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    
