@@ -28,4 +28,3 @@ def get_data_for_round():
 
 
 run_game(RULE, get_data_for_round)
-
