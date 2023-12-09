@@ -35,7 +35,7 @@ poetry build
 
 **Is Even:** ``poetry run brain-even``
 
-**Calculator:** ``cpoetry run calculator``
+**Calculator:** ``poetry run calculator``
 
 **Greatest common divisor:** ``poetry run brain-gcd``
 
@@ -47,8 +47,8 @@ poetry build
 
 ### Is Even
 [![asciicast](https://asciinema.org/a/pv8MvLTgua7ZkblUwdYhD6mAf.svg)](https://asciinema.org/a/pv8MvLTgua7ZkblUwdYhD6mAf)
+
 ### Calculator
-Brain calculator asciinema:
 [![asciicast](https://asciinema.org/a/UPHB9JDCzf4IkKnqHPrL1iAeq.svg)](https://asciinema.org/a/UPHB9JDCzf4IkKnqHPrL1iAeq)
 
 ### Greatest common divisor
