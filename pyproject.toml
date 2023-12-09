@@ -1,12 +1,17 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "First Hexlet project"
+authors = ["Sergey Kholodetskiy <sergh.yanovskiy@inbox.ru>"]
+repository = "https://github.com/YanovskiyS/python-project-49.git"
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+  "Topic :: Education"
+]
+
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"

@@ -15,9 +15,9 @@ def is_prime(num):
 
 
 def get_data_for_round():
-    QUESTION = randint(1, 10)
-    RIGHT_ANSWER = 'yes' if is_prime(QUESTION) else "no"
-    return [QUESTION, RIGHT_ANSWER]
+    question = randint(1, 10)
+    right_answer = 'yes' if is_prime(question) else "no"
+    return [question, right_answer]
 
 
 run_game(RULE, get_data_for_round)
