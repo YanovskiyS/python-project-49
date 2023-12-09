@@ -21,5 +21,6 @@ def run_game(rules, get_round_data):
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{right_answer}'."
                   f"\nLet's try again, {user_name}!")
+            return
 
     print(f'Congratulations, {user_name}!')
