@@ -1,4 +1,3 @@
-from brain_games.engine import run_game
 from random import randint
 
 
@@ -16,11 +15,8 @@ def find_gcd(num1, num2):
 
 
 def get_data_for_round():
-    FIRST_NUMBER = randint(1, 30)
-    SECOND_NUM = randint(1, 30)
-    QUESTION = f'{FIRST_NUMBER} {SECOND_NUM}'
-    RIGHT_ANSWER = str(find_gcd(FIRST_NUMBER, SECOND_NUM))
-    return [QUESTION, RIGHT_ANSWER]
-
-
-run_game(RULE, get_data_for_round)
+    first_num = randint(1, 30)
+    second_num = randint(1, 30)
+    question = f'{first_num} {second_num}'
+    right_answer = str(find_gcd(first_num, second_num))
+    return [question, right_answer]

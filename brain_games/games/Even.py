@@ -1,4 +1,3 @@
-from brain_games.engine import run_game
 from random import randint
 
 
@@ -13,6 +12,3 @@ def get_data_for_round():
     question = randint(1, 10)
     correct_answer = 'yes' if is_even(question) else 'no'
     return [question, correct_answer]
-
-
-run_game(RULE, get_data_for_round)

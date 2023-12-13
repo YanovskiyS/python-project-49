@@ -1,4 +1,3 @@
-from brain_games.engine import run_game
 from random import randint
 
 
@@ -16,13 +15,10 @@ def calc_expresion(first_num, sign, second_num):
 
 
 def get_data_for_round():
-    FIRST_NUM = randint(1, 15)
-    SECOND_NUM = randint(1, 15)
-    SIGNS = ['+', '-', '*']
-    SIGN = SIGNS[randint(0, 2)]
-    QUESTION = f'{FIRST_NUM} {SIGN} {SECOND_NUM}'
-    RIGHT_ANSWER = str(calc_expresion(FIRST_NUM, SIGN, SECOND_NUM))
-    return [QUESTION, RIGHT_ANSWER]
-
-
-run_game(RULE, get_data_for_round)
+    first_num = randint(1, 15)
+    second_num = randint(1, 15)
+    signs = ['+', '-', '*']
+    sign = signs[randint(0, 2)]
+    question = f'{first_num} {sign} {second_num}'
+    right_answer = str(calc_expresion(first_num, sign, second_num))
+    return [question, right_answer]

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from brain_games.games.progression import RULE
-from brain_games.games.progression import get_data_for_round
+from brain_games.games.calculator import RULE
+from brain_games.games.calculator import get_data_for_round
 from brain_games.engine import run_game
 
 

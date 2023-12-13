@@ -1,4 +1,3 @@
-from brain_games.engine import run_game
 from random import randint
 
 
@@ -6,7 +5,7 @@ RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
-    if num == 1:
+    if num < 1:
         return False
     d = 2
     while d * d <= num and num % d != 0:
@@ -18,6 +17,3 @@ def get_data_for_round():
     question = randint(1, 10)
     right_answer = 'yes' if is_prime(question) else "no"
     return [question, right_answer]
-
-
-run_game(RULE, get_data_for_round)
