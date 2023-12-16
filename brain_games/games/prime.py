@@ -5,12 +5,12 @@ RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
-    if num < 1:
+    if num < 2:
         return False
-    d = 2
-    while d * d <= num and num % d != 0:
-        d += 1
-    return d * d > num
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
 
 
 def get_data_for_round():
