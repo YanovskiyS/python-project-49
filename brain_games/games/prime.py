@@ -16,4 +16,4 @@ def is_prime(num):
 def get_data_for_round():
     question = randint(1, 10)
     right_answer = 'yes' if is_prime(question) else "no"
-    return [question, right_answer]
+    return (question, right_answer)

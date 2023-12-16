@@ -11,16 +11,15 @@ def run_game(rules, get_round_data):
     print(rules)
 
     for i in range(NUMBER_OF_ROUNDS):
-        [number_for_question, right_answer] = get_round_data()
+        (number_for_question, right_answer) = get_round_data()
         print('Question:', number_for_question)
         answer = prompt.string('Your answer: ')
 
-        if answer == right_answer:
-            print('Correct')
-        else:
+        if answer != right_answer:
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{right_answer}'."
                   f"\nLet's try again, {user_name}!")
             return
+        print('Correct')
 
     print(f'Congratulations, {user_name}!')

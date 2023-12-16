@@ -11,4 +11,4 @@ def is_even(number):
 def get_data_for_round():
     question = randint(1, 10)
     correct_answer = 'yes' if is_even(question) else 'no'
-    return [question, correct_answer]
+    return (question, correct_answer)
